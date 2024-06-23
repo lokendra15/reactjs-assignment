@@ -1,6 +1,6 @@
-# React Project
+# React Assignment 
 
-This is a React project that includes a form with validation, using `react-hook-form`. The project is set up with ESLint and Prettier for code linting and formatting.
+This Assignment developed with React, Redux, React-hook-form, react-router, CSS, json-server for Moock API.
 
 steps to run the project:-
 
