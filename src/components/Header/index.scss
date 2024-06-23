@@ -1,0 +1,32 @@
+.headerWrap {
+    top: 0;
+    height: 75px;
+    background-color: #3e3e7e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+    position: fixed;
+    width: 100%;
+
+    .headerTitleWrap {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: bold;
+        display: flex;
+        gap: 2rem;
+    }
+
+    .iconWrap {
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 1.3rem;
+        width: 1.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: blue;
+        color: #fff;
+        margin-right: 6rem;
+    }
+}

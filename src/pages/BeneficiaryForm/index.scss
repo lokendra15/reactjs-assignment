@@ -1,0 +1,61 @@
+.formWrap {
+    margin-top:5em;
+    padding: 5em;
+    text-align: left;
+
+    .formContainerWrap {
+        display: flex;
+        flex-direction: column;
+        width: 30rem;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+
+        div {
+            margin-bottom: 15px;
+
+            label {
+                display: block;
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+
+            input,
+            select {
+                width: 100%;
+                padding: 8px;
+                margin-top: 5px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+
+            p {
+                color: red;
+                margin: 5px 0px;
+                font-size: 0.9em;
+            }
+
+            input {
+                box-sizing: border-box;
+            }
+        }
+
+        .buttonsWrap {
+            display: flex;
+            gap: 1rem;
+            justify-content: end;
+            margin-top: 1rem;
+
+            .cancelWrap {
+                background-color: red;
+            }
+
+            .submitWrap {
+                background-color: green;
+            }
+        }
+
+    }
+}

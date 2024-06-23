@@ -1,0 +1,49 @@
+.customTableWrap {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+
+    thead {
+        background-color: #f2f2f2;
+
+        th {
+            padding: 12px;
+            border: 1px solid #dddddd;
+        }
+    }
+
+    tbody {
+        tr {
+            border: 1px solid #dddddd;
+            padding: 8px;
+
+            &.oddRow {
+                background-color: #f9f9f9;
+            }
+
+            td {
+                padding: 12px;
+                border: 1px solid #dddddd;
+            }
+        }
+
+        .actionButton {
+            background: none;
+            border: none;
+            color: #007bff;
+            cursor: pointer;
+            font-size: 18px;
+            margin-right: 8px;
+
+            &:hover {
+                color: #0056b3;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
