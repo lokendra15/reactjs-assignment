@@ -46,7 +46,7 @@ const BeneficiaryForm = () => {
   }, [details, setValue]);
 
   useEffect(() => {
-    const {addUpdateBeneficiary: { status } } = beneficiary
+    const {addUpdateBeneficiary: { status = '' } = {} } = beneficiary
     if([200,201].includes(status)){
       dispatch(addUpdateBeneficiary({}))
       navigate(MANAGE_BENEFICIARY)
