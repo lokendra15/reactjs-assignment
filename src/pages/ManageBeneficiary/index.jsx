@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import Button from '../../components/Button';
@@ -5,10 +6,11 @@ import BeneficiaryList from '../../components/BeneficiaryList';
 import { ROUTE_PATH } from '../../constants/route';
 import CONSTANTS from '../../constants/constants';
 import {fetchBeneficiery, fetchAddUpdateBeneficiery} from '../../store/reducers/beneficiary/thunk'
+
+import Modal from '../../components/Modal';
+import Breadcrumb from '../../components/Breadcrumb';
 import './index.scss';
-import { useEffect, useState } from 'react';
-import Modal from '../../components/Modal'
-import Breadcrumb from '../../components/Breadcrumb'
+
 const { BENEFICIARY_ACTION } = CONSTANTS
 
 const { BENEFICIARY_FORM } = ROUTE_PATH;

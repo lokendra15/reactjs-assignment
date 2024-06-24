@@ -25,7 +25,7 @@ const BeneficiaryForm = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const beneficiary = useSelector((state) => (state.beneficiary));
-  const details = useSelector((state) => (state?.beneficiary?.beneficiaryData.find((item) => item.id === id)));
+  const details = useSelector((state) => (state?.beneficiary?.beneficiaryData?.find((item) => item.id === id)));
   const {
     register,
     handleSubmit,
